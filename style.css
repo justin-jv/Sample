@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    display: absolute;
+    grid-template-columns: auto auto;
+    /* padding: 10px; */
+}
+.grid-item{
+    /* padding: 20px; */
+}
+.grid-item1{
+    background-image: url("/Amazon Clone/images/box7_image.jpg");
+    background-size: cover;
+    width: 185px;
+    height: 115px;
+}
+.grid-item2{
+    background-image: url("/Amazon Clone/images/box7_image.jpg");
+    background-size: cover;
+    width: 185px;
+    height: 115px;
+}
+.grid-item3{
+    background-image: url("/Amazon Clone/images/box7_image.jpg");
+    background-size: cover;
+    width: 185px;
+    height: 115px;
+}
+.grid-item4{
+    background-image: url("/Amazon Clone/images/box7_image.jpg");
+    background-size: cover;
+    width: 185px;
+    height: 115px;
+}
+.grid-item5{
+    background-image: url("/Amazon Clone/images/box7_image.jpg");
+    background-size: cover;
+    width: 185px;
+    height: 115px;
+}

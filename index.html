@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>Hello World!</p>
+    <hr>
+    <h1>HTML List</h1>
+    <ul type="circle">
+        <li>Vegetables</li>
+        <ul type="square">
+            <li>Cabbage</li>
+            <li type="disc">Carrot</li>
+            <li>Onion</li>
+        </ul>
+        <li>Fruits</li>
+        <ol type="A">
+            <li value="3">Apple</li>
+            <li>Orange</li>
+            <li>Mango</li>
+        </ol>
+    </ul>
+    <hr>
+    <h1>HTML Table</h1>
+    <table>
+        <caption style="caption-side: bottom;">Student Details</caption>
+        <thead>
+        <tr>
+            <th>SName</th>
+            <th>Course</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Justin</th>
+            <td>BCA</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <th>Sandeep</th>
+            <td>BBA</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <th>Rahul</th>
+            <td>BCom</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <th>Ram</th>
+            <td>BSc Physics</td>
+            <td>23.5</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="2">Total Students</th>
+            <td>4</td>
+        </tr>
+    </tfoot>
+    </table>
+    <hr>
+    <h1>HTML Form</h1>
+    <form>
+        <input type="text" placeholder="Enter Something Here">
+        <input type="number" placeholder="Enter numbers only">
+        <input type="button" value="OK">
+        <input type="image" src="Portfolio/Images/Homepage.jpg">
+        <label for="101">
+        <input type="radio" value="class XI" name="class" id="101">Class XI
+        </label>
+        <label for="102">
+        <input type="radio" value="class XII" name="class" id="102">Class XII
+        </label>
+    </form>
+    <hr>
+    <form action="/action.php">
+        <label for="username">
+            <input type="text" placeholder="username">
+        </label>
+        <br>
+        <br>
+        <label for="password">
+            <input type="password" placeholder="password">
+        </label>
+        <br>
+        <h4>Select your Class</h4>
+        <label for="103">
+            <input type="radio" name="class" value="Class XI" id="103">Class XI
+        </label>
+        <br><br>
+        <label for="104">
+            <input type="radio" name="class" value="class XII" id="104">Class XII
+        </label>
+       <h4>Select Favourite Subject</h4>
+       <br>
+       <label for="math">
+        <input type="checkbox" name="subject" value="Math" id="math">Math
+       </label> 
+       <br>
+       <label for="phy">
+        <input type="checkbox" name="subject" value="Physics" id="phy">Physics
+       </label>
+       <br>
+       <label for="3">
+        <input type="checkbox" name="subject" id="3" value="chemistry">Chemistry
+      </label>
+      <br>
+      <label for="cs">
+        <input type="checkbox" name="subject" id="cs" value="cs">Computer Science
+      </label>
+      <br><br>
+      <label for="feedback">
+        <textarea name="comments" id="feedback" placeholder="Enter valuable feedback" rows="5" cols="30">Feedback</textarea>
+      </label>
+      <input type="submit" value="submit Form">
+    </form>
+    <hr>
+    <h1>HTML Select</h1>
+    <br>
+    Select your city
+    <select name="city" id="city">
+        <option value="delhi">Delhi</option>
+        <option value="kerala">Kerala</option>
+        <option value="chennai">Chennai</option>
+    </select>
+    <br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=mDpKuJYp11OlF0zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <iframe width="560" height="315" src="https://www.wikipedia.org/"></iframe>
+    
+    <video width="320" height="240" controls autoplay >
+        <source src="http://www.example.com/waterfall-video.webm" type="video/webm"/>
+      </video>
+      <audio controls>
+        <source src="as.mp3" type="audio/mp3">
+      </audio>
+      <div class="grid-container">
+        <div class="grid-item1"></div>
+        <div class="grid-item2">2</div>
+        <div class="grid-item3">3</div>
+        <div class="grid-item4">4</div>
+        <div class="grid-item5">5</div>
+      </div> 
+<!-- 
+      <!DOCTYPE html>
+      <html>
+      <head>
+          <title>Video Background</title>
+          <style>
+              body video {
+                  height: 100%;
+                  width: 100%;
+                  background-image: url('space.mp4'); /* Replace 'your-video.mp4' with your actual video path */
+                  background-size: cover;
+                  background-position: center center;
+                  background-repeat: no-repeat;
+                  /* opacity: 0.7; Adjust opacity as needed */
+              }
+          </style>
+      </head>
+      <body>
+        <video autoplay loop muted>
+            <source src="space.mp4" type="video/mp4">
+        </video>
+          </body>
+      </html> -->
